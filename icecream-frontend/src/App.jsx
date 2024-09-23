@@ -9,6 +9,8 @@ import Cart from './pages/users/Cart';
 import ProductDetail from './pages/users/ProductDetail';
 import Home from './pages/users/Home';
 import Login from './pages/auth/Login';
+import Checkout from './pages/users/Checkout';
+import OrderDetails from './pages/users/OrderDetails';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/" element={<UserLayout />}>
           <Route index element={<Home />} />
           <Route path="product/:id" element={<ProductDetail />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="order-details" element={<OrderDetails />} />
           <Route path="cart" element={<Cart />} />
           <Route path="login" element={<Login />} />
         </Route>

@@ -12,7 +12,7 @@ function Navbar() {
           <Link to="/menu" className="text-gray-600 hover:text-[#FF5E8C]">Menu</Link>
           <Link to="/about" className="text-gray-600 hover:text-[#FF5E8C]">About</Link>
           <Link to="/contact" className="text-gray-600 hover:text-[#FF5E8C]">Contact</Link>
-          <Link className="text-gray-600 hover:text-[#FF5E8C]" href="/cart">
+          <Link className="text-gray-600 hover:text-[#FF5E8C]" to="/checkout">
             <ShoppingCart className="w-4 h-4" />
           </Link>
         </div>
